@@ -2,10 +2,10 @@
 
 ## 安装
 ~~~
-composer require topthink/think-migration
+composer require cheukpang/think-migration
 ~~~
 
-## 修改（v2.0.3）
+## 修改（v2.0.4）
 * Column的类型报错
 
 * PdoAdapter.php中的getColumnTypes方法中添加了smallinteger的数组内容，
@@ -51,3 +51,4 @@ composer require topthink/think-migration
        break;
 
 ```
+* 修复对php7.4不兼容的报错(官方包没怎么对v2怎么维护，只能fork建新包了)
