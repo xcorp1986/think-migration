@@ -1,9 +1,13 @@
 {
-  "name": "topthink/think-migration",
+  "name": "cheukpang/think-migration",
   "authors": [
     {
       "name": "yunwuxin",
       "email": "448901948@qq.com"
+    },
+    {
+      "name": "kwan",
+      "email": "303198069@qq.com"
     }
   ],
   "license": "Apache-2.0",
